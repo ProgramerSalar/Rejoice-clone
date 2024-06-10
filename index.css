@@ -1,7 +1,18 @@
+/* Add the font family */
+
+@font-face {
+    font-family: nb;
+    /* src:url(./download/NBInternationalProBoo.ttf) */
+    src:url('./download/Rejouice-Headline.ttf')
+}
+
+
+
 * {
   padding: 0px;
   margin: 0px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-family: nb;
   box-sizing: border-box;
 
 }
@@ -45,10 +56,12 @@ body {
 
       h3{
         font-size: 1.6vw;
+        font-weight: 100;
       }
 
       h4{
         font-size: 1.6vw;
+        font-weight: 100;
       }
     }
   }
